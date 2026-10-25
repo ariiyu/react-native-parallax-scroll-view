@@ -132,6 +132,13 @@ The `ParallaxScrollView` component adds a few additional properties, as describe
 
 See full changelog [here](./CHANGELOG.md).
 
+## Local development
+
+Use Node.js **22.23.4** (`.node-version`) and `npm ci` to reproduce the existing
+dependency lockfile. This selects the local tooling runtime; the component still
+runs inside the consuming React Native app. Validate that app separately before
+releasing a native dependency or rendering change.
+
 ## Contributing
 
 I welcome contributions! Please open an issues if you have any feature ideas
